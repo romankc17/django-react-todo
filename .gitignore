@@ -11,3 +11,4 @@ ENV/
 # Spyder project settings
 .spyderproject
 .spyproject
+*.sqlite3
