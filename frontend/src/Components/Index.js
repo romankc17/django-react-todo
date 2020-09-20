@@ -14,10 +14,12 @@ function Index() {
       </Link>
       <div calssName="index__container">
         <h1>TODO APP</h1>
-        <div className="index__post">
+        <form className="index__post">
           <input type="text" className="index__input" />
-          <Button size="medium">ADD</Button>
-        </div>
+          <Button size="medium" className="index__button">
+            ADD
+          </Button>
+        </form>
       </div>
     </nav>
   );
