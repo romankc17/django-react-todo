@@ -1,0 +1,58 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home__logo {
+  padding: 20px;
+}
+
+.home__container {
+  width: 80%;
+  border: 3px solid;
+  border-color: lightgray;
+  border-radius: 10px;
+}
+
+.home__container > h1 {
+  font-weight: 900;
+  color: mediumturquoise;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.home__paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home__buttonlogin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.home__login {
+  color: black !important;
+  width: 50%;
+  background-color: khaki !important;
+  border: none !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+}
+
+.home__createaccount {
+  color: black !important;
+  width: 55%;
+  background-color: khaki !important;
+  border: none !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+}
+
+.home__buttoncreateaccount {
+  padding: 20px;
+}

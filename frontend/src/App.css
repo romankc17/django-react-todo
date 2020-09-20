@@ -1,0 +1,6 @@
+* {
+  margin: 0;
+}
+body {
+  --primary-color: #87ceeb rgb(135, 206, 235);
+}
