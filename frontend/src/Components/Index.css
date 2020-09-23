@@ -14,19 +14,45 @@
   border-radius: 10px;
   margin-top: 50px;
   align-items: center;
-  background-color: lightblue;
+  background-color: rgb(250, 179, 25);
 }
 
 .index__input {
   margin-top: 40px;
   margin-right: 10px;
-  margin-left: 40px;
-  margin-bottom: 100px;
-  padding: 12px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  padding: 19px;
 }
 
 .index__button {
-  padding: 12px !important;
+  padding: 16px !important;
   margin-right: 40px !important;
   background-color: rgb(194, 139, 238) !important;
+}
+
+.index__list {
+  font-weight: 1000;
+  font-size: 25px;
+  display: flex;
+  padding: 0px;
+}
+
+.index__item {
+  display: flex;
+  border: 3px solid white;
+  color: black;
+  padding: 20px;
+}
+
+.index__postlist {
+  display: flex;
+}
+
+.index__done:hover {
+  color: rgb(30, 253, 30);
+}
+
+.index__delete:hover {
+  color: red;
 }
