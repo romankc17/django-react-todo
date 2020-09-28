@@ -34,6 +34,7 @@ function Index() {
     setTimeout(() => {
       setRef(ref + 1);
     }, 500);
+    setAdd("");
   }
 
   function addlist() {
